@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sparwk-reactPlayer-demo/static/css/main.c814f54f.chunk.css",
-    "main.js": "/sparwk-reactPlayer-demo/static/js/main.7c21e120.chunk.js",
-    "main.js.map": "/sparwk-reactPlayer-demo/static/js/main.7c21e120.chunk.js.map",
+    "main.js": "/sparwk-reactPlayer-demo/static/js/main.4ad3f6b2.chunk.js",
+    "main.js.map": "/sparwk-reactPlayer-demo/static/js/main.4ad3f6b2.chunk.js.map",
     "runtime-main.js": "/sparwk-reactPlayer-demo/static/js/runtime-main.aea2a9f2.js",
     "runtime-main.js.map": "/sparwk-reactPlayer-demo/static/js/runtime-main.aea2a9f2.js.map",
     "static/js/2.994e8f95.chunk.js": "/sparwk-reactPlayer-demo/static/js/2.994e8f95.chunk.js",
@@ -12,7 +12,7 @@
     "index.html": "/sparwk-reactPlayer-demo/index.html",
     "static/css/main.c814f54f.chunk.css.map": "/sparwk-reactPlayer-demo/static/css/main.c814f54f.chunk.css.map",
     "static/js/2.994e8f95.chunk.js.LICENSE.txt": "/sparwk-reactPlayer-demo/static/js/2.994e8f95.chunk.js.LICENSE.txt",
-    "static/js/main.7c21e120.chunk.js.LICENSE.txt": "/sparwk-reactPlayer-demo/static/js/main.7c21e120.chunk.js.LICENSE.txt",
+    "static/js/main.4ad3f6b2.chunk.js.LICENSE.txt": "/sparwk-reactPlayer-demo/static/js/main.4ad3f6b2.chunk.js.LICENSE.txt",
     "static/media/example.d824fb7f.less": "/sparwk-reactPlayer-demo/static/media/example.d824fb7f.less",
     "static/media/index.0d4dd81b.less": "/sparwk-reactPlayer-demo/static/media/index.0d4dd81b.less"
   },
@@ -20,6 +20,6 @@
     "static/js/runtime-main.aea2a9f2.js",
     "static/js/2.994e8f95.chunk.js",
     "static/css/main.c814f54f.chunk.css",
-    "static/js/main.7c21e120.chunk.js"
+    "static/js/main.4ad3f6b2.chunk.js"
   ]
 }
