@@ -114,17 +114,17 @@ const audioList1 = [
   * orderInFolder : 음악 리스트에서 폴더 안에서 표출될 순서
   * */
 
-  {
-    PL_ID : 'PL_1',
-    AD_ID : 'AD_2',
-    name: 'Dorost Nemisham1',
-    singer: 'Sirvan Khosravi',
-    cover: 'https://res.cloudinary.com/ehsanahmadi/image/upload/v1573758778/Sirvan-Khosravi-Dorost-Nemisham_glicks.jpg',
-    musicSrc: 'https://www.mfiles.co.uk/mp3-downloads/brahms-st-anthony-chorale-theme-two-pianos.mp3',
-    likeMode : false,
-    order : 2,
-    lyric : '',
-  },
+  // {
+  //   PL_ID : 'PL_1',
+  //   AD_ID : 'AD_2',
+  //   name: 'Dorost Nemisham1',
+  //   singer: 'Sirvan Khosravi',
+  //   cover: 'https://res.cloudinary.com/ehsanahmadi/image/upload/v1573758778/Sirvan-Khosravi-Dorost-Nemisham_glicks.jpg',
+  //   musicSrc: 'https://www.mfiles.co.uk/mp3-downloads/brahms-st-anthony-chorale-theme-two-pianos.mp3',
+  //   likeMode : false,
+  //   order : 2,
+  //   lyric : '',
+  // },
   {
     PL_ID : 'PL_1',
     AD_ID : 'AD_1',
@@ -151,7 +151,7 @@ const playLists1 = [
     PL_ID : 'PL_1',
     name: 'play list 1',
     order : 1,
-    musicCnt : 2,
+    musicCnt : 1,
   },
   {
     PL_ID : 'PL_2',
@@ -292,7 +292,7 @@ const options = {
   extendsContent: null,
 
   // default volume of the audio player [type `Number` default `1` range `0-1`]
-  defaultVolume: 1,
+  defaultVolume: 0.8,
 
   // playModeText show time [type `Number(ms)` default `600`]
   playModeShowTime: 600,

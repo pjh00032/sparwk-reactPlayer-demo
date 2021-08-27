@@ -63,7 +63,7 @@ onLikeModeChange    //like 모드 이벤트(onClick)
                 'no-content': audioLists.length < 1,
             })}
         >
-            {audioLists.length > 1 ?
+            {audioLists.length > 0 ?
                 (
                     <ul className={SORTABLE_CONFIG.selector} id={'audioLists'}>
                         {audioLists.map((audio) => {

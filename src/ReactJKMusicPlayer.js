@@ -545,26 +545,36 @@ export default class ReactJkMusicPlayer extends PureComponent {
                 ref={this.player}
                 tabIndex="-1"
             >
+                <div>
+                    <h2>wavesurfer</h2>
                 <Waveform
                     wave={this.wavesurfer}
                     url={this.state.musicSrc}
                     onSeek={this.onWaveSeek}
                 />
-                <br/>
-                <div style={{display:"flex"}}>
-                    <DefaultLyrics
-                        lyrics={this.state.defaultLyric}
-                        currentMillisecond={this.state.currentTime * 1000}
-                    />
-                    <TextField id="outlined-basic"
-                               onChange = {this.onChangeEditLyrics}
-                               value={this.state.lyric}
-                               multiline
-                               rows="10"
-                               style={{width : 400}}
-
-                    />
                 </div>
+                <br/>
+                <span style={{display:"flex"}}>
+                    <div className={cls('lyrics-')}>
+                        <h2>lyrics - all</h2>
+                        <DefaultLyrics
+                            lyrics={this.state.defaultLyric}
+                            currentMillisecond={this.state.currentTime * 1000}
+                        />
+                    </div>
+                    <p/>
+                    <div className="lyrics-editable">
+                        <h2>lyrics - editable</h2>
+                        <TextField id="outlined-basic"
+                                onChange = {this.onChangeEditLyrics}
+                                value={this.state.lyric}
+                                multiline
+                                rows="10"
+                                style={{width : 400}}
+
+                        />
+                    </div>
+                </span>
                 {toggle ? undefined : drag ? (
                     <Draggable
                         bounds={bounds}
@@ -1809,6 +1819,7 @@ export default class ReactJkMusicPlayer extends PureComponent {
             default:
                 break
         }
+
     }
 
     onAudioEnd = () => {
@@ -1847,11 +1858,15 @@ export default class ReactJkMusicPlayer extends PureComponent {
             return
         }
 
-        this.audioPrevAndNextBasePlayHandle(false)
+        this.audioPrevAndNextBasePlayHandle(false);
+
+        this.onWaveSeek();
     }
 
     onPlayNextAudio = () => {
-        this.audioPrevAndNextBasePlayHandle(true)
+        this.audioPrevAndNextBasePlayHandle(true);
+
+        this.onWavePositionChange(0);
     }
 
     audioTimeUpdate = () => {

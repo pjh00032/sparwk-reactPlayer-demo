@@ -11,7 +11,7 @@ currentMillisecond,     //현재 재생 시간(currentSecond * 1000)
         lrc={lyrics}
         currentMillisecond={currentMillisecond}
         autoScroll={true}
-        style={{width:400,height:700}}
+        style={{width:400,height:800}}
         lineRenderer={({ index, active, line }) => (
             <div
                 style={{
