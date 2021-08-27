@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/sparwk-reactPlayer-demo/static/css/main.c814f54f.chunk.css",
-    "main.js": "/sparwk-reactPlayer-demo/static/js/main.c3a74243.chunk.js",
-    "main.js.map": "/sparwk-reactPlayer-demo/static/js/main.c3a74243.chunk.js.map",
+    "main.js": "/sparwk-reactPlayer-demo/static/js/main.38ac3b8f.chunk.js",
+    "main.js.map": "/sparwk-reactPlayer-demo/static/js/main.38ac3b8f.chunk.js.map",
     "runtime-main.js": "/sparwk-reactPlayer-demo/static/js/runtime-main.aea2a9f2.js",
     "runtime-main.js.map": "/sparwk-reactPlayer-demo/static/js/runtime-main.aea2a9f2.js.map",
-    "static/js/2.994e8f95.chunk.js": "/sparwk-reactPlayer-demo/static/js/2.994e8f95.chunk.js",
-    "static/js/2.994e8f95.chunk.js.map": "/sparwk-reactPlayer-demo/static/js/2.994e8f95.chunk.js.map",
+    "static/js/2.9d7f2440.chunk.js": "/sparwk-reactPlayer-demo/static/js/2.9d7f2440.chunk.js",
+    "static/js/2.9d7f2440.chunk.js.map": "/sparwk-reactPlayer-demo/static/js/2.9d7f2440.chunk.js.map",
     "static/js/3.fe222e4b.chunk.js": "/sparwk-reactPlayer-demo/static/js/3.fe222e4b.chunk.js",
     "static/js/3.fe222e4b.chunk.js.map": "/sparwk-reactPlayer-demo/static/js/3.fe222e4b.chunk.js.map",
     "index.html": "/sparwk-reactPlayer-demo/index.html",
     "static/css/main.c814f54f.chunk.css.map": "/sparwk-reactPlayer-demo/static/css/main.c814f54f.chunk.css.map",
-    "static/js/2.994e8f95.chunk.js.LICENSE.txt": "/sparwk-reactPlayer-demo/static/js/2.994e8f95.chunk.js.LICENSE.txt",
-    "static/js/main.c3a74243.chunk.js.LICENSE.txt": "/sparwk-reactPlayer-demo/static/js/main.c3a74243.chunk.js.LICENSE.txt",
+    "static/js/2.9d7f2440.chunk.js.LICENSE.txt": "/sparwk-reactPlayer-demo/static/js/2.9d7f2440.chunk.js.LICENSE.txt",
+    "static/js/main.38ac3b8f.chunk.js.LICENSE.txt": "/sparwk-reactPlayer-demo/static/js/main.38ac3b8f.chunk.js.LICENSE.txt",
     "static/media/example.d824fb7f.less": "/sparwk-reactPlayer-demo/static/media/example.d824fb7f.less",
-    "static/media/index.0d4dd81b.less": "/sparwk-reactPlayer-demo/static/media/index.0d4dd81b.less"
+    "static/media/index.fdc4972b.less": "/sparwk-reactPlayer-demo/static/media/index.fdc4972b.less"
   },
   "entrypoints": [
     "static/js/runtime-main.aea2a9f2.js",
-    "static/js/2.994e8f95.chunk.js",
+    "static/js/2.9d7f2440.chunk.js",
     "static/css/main.c814f54f.chunk.css",
-    "static/js/main.c3a74243.chunk.js"
+    "static/js/main.38ac3b8f.chunk.js"
   ]
 }
